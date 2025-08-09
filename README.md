@@ -1,4 +1,4 @@
-# MVC-NextJS Hybrid Web Application
+# MVC-NextJS Hybrid Web Template
 
 A modern full-stack web application that seamlessly integrates **ASP.NET MVC** backend with a **Next.js** frontend, combining the power of server-side C# with React's modern UI capabilities.
 
