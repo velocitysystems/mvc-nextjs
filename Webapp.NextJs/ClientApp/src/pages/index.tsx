@@ -18,7 +18,7 @@ export default function Home() {
             ⭐ View Slug: 54321
           </Link>
           <Link href="/slug/demo" className="nav-link">
-            🎯 View Slug: demo
+            🔍 View Slug: demo
           </Link>
         </div>
         
