@@ -54,4 +54,29 @@ mvc-nextjs/
 3. **Frontend**: The Next.js app will automatically start via SPA proxy integration
 4. **Development**: Navigate to the configured localhost URL to see the integrated application
 
+## 🛠️ Development & Deployment
+
+### Debug/Development
+```bash
+# Navigate to the project directory
+cd Webapp.NextJs/
+
+# Restore dependencies and run in development mode
+dotnet run
+```
+
+### Publishing
+```bash
+# Navigate to the project directory
+cd Webapp.NextJs/
+
+# Publish for production (creates optimized build)
+dotnet publish --configuration Release
+```
+
+**Note**: The publish process will automatically:
+- Install Node.js dependencies (`npm install`)
+- Build the Next.js frontend (`npm run build`)
+- Include the built frontend files in the published output
+
 This architecture provides the flexibility of modern frontend frameworks while maintaining the robustness and familiarity of ASP.NET MVC for backend operations.
